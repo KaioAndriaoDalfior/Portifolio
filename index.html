@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaio Andrião Dalfior</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<style>
+    /* Estilo personalizado */
+    .profile-img {
+        max-width: 120px;
+        border: 3px solid #FFDE59; /* Alterado para amarelo */
+    }
+
+    /* Alterando a cor de fundo do header e do footer para amarelo */
+    header.bg-dark {
+        background-color: #FFDE59;
+    }
+
+    footer.bg-dark {
+        background-color: #FFDE59;
+    }
+
+    /* Alterando a cor do texto no header e no footer para preto */
+    header.bg-dark.text-white,
+    footer.bg-dark.text-white {
+        color: #000000;
+    }
+
+    /* Alterando a cor dos botões para amarelo */
+    .btn-primary {
+        background-color: #FFDE59;
+        border-color: #FFDE59;
+    }
+
+    /* Alterando a cor do texto dentro dos botões para preto */
+    .btn-primary:hover {
+        color: #000000;
+    }
+
+    /* Alterando a cor de fundo da seção de projetos para amarelo claro */
+    #projetos {
+        background-color: #FFFFB3;
+    }
+
+    /* Estilizando o menu */
+    .nav-link {
+        color: #000000; /* Cor do texto do menu */
+        font-weight: bold; /* Texto em negrito */
+        transition: all 0.3s ease; /* Transição suave */
+    }
+
+    .nav-link:hover {
+        color: #FFDE59; /* Cor do texto do menu ao passar o mouse */
+    }
+
+    #contato {
+        display: flex;
+        justify-content: center;
+    }
+
+    #contato .icon {
+        margin-right: 10px; /* Espaçamento entre os ícones */
+    }
+
+    #contato .icon img {
+        width: 40px; /* Tamanho dos ícones */
+        height: 40px; /* Tamanho dos ícones */
+        margin: 10px 10px 10px 0; /* Espaçamento entre os ícones */
+        transition: transform 0.3s ease; /* Transição suave */
+    }
+
+    #contato .icon img:hover {
+        transform: scale(1.2); /* Aumentar o tamanho ao passar o mouse */
+    }
+
+</style>
+</head>
+<body>
+<header class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1>Kaio Andrião Dalfior</h1>
+                <h5 class="mb-3">Programador Front-End</h5>
+                <h6 class="mb-3">C# | C | PHP | JAVA | PYTHON | HTML/CSS/JS </h6>
+            </div>
+            <div class="col-md-6 text-center text-md-right mb-3 mb-md-0">
+                <img src="img/fotoPerfil.png" alt="Foto de Perfil" class="img-fluid rounded-circle profile-img">
+            </div>
+        </div>
+        <nav>
+            <ul class="nav justify-content-center justify-content-md-end">
+                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="#competencias">Habilidades Técnicas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades Pessoais</a></li>
+                <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="sobre" class="py-5">
+    <div class="container">
+        <h2>Sobre Mim</h2>
+        <p>Estudante de Análise e Desenvolvimento de Sistemas e entusiasta de tecnologia, trago uma experiência em algumas linguagens de programação, incluindo C# ASP.NET, C, Java, JavaScript, HTML5/CSS3, Arduíno, PHP e Python. Além disso, tenho domínio em sistemas operacionais como Ubuntu, Kali Linux e Debian.</p>
+        <p>Durante o 4º período, tive a oportunidade de participar do projeto de "Monitoramento de Sinais Vitais e Atividades Físicas através de Microcontroladores". Essa iniciativa foi desenvolvida como parte do Programa de Bolsas de Iniciação Científica Júnior (PBICJr 2022), em colaboração com a FAPES.</p>
+        <p>Apresento forte paixão por redes de computadores e segurança da informação, com foco nesta última como minha área de interesse e desenvolvimento profissional.</p>
+        <p>Estou aberto a oportunidades desafiadoras que me permitam expandir meus conhecimentos, contribuir para projetos inovadores e colaborar com equipes visionárias.</p>
+    </div>
+</section>
+
+
+
+<section id="competencias" class="py-5">
+    <div class="container">
+        <h2>Habilidades Técnicas</h2>
+        <p>- C# ASP.NET</p>
+        <p>- C</p>
+        <p>- Java</p>
+        <p>- JavaScript</p>
+        <p>- HTML5/CSS3</p>
+        <p>- Arduíno</p>
+        <p>- PHP</p>
+        <p>- Python</p>
+        <p>- Ubuntu</p>
+        <p>- Kali Linux</p>
+        <p>- Debian</p>
+        <p>- Redes de computadores</p>
+        <p>- Segurança da informação</p>
+    </div>
+</section>
+
+<section id="habilidades" class="py-5 bg-light">
+    <div class="container">
+        <h2>Habilidades Pessoais</h2>
+        <p>- Boa comunicação</p>
+        <p>- Trabalho em Equipe</p>
+        <p>- Produtividade</p>
+        <p>- Criatividade</p>
+        <p>- Planejamento</p>
+        <p>- Gestão de Pessoas</p>
+    </div>
+</section>
+
+<section id="cursos" class="py-5 bg-light">
+    <div class="container">
+        <h2>Cursos</h2>
+        <p>- Operador de Computadores - Micromix 2014</p>
+        <p>- Técnico em Informática - Micromix 2014</p>
+        <p>- Adobe Photoshop CS3 / After Effects CS4 - Micromix 2014</p>
+        <p>- Técnicas de Invasão - Bruno Fraga 2019</p>
+        <p>- Introdução à Ciência da Computação com Python - USP 2021</p>
+        <p>- Segurança da Informação - UNIP 2020</p>
+    </div>
+</section>
+
+<section id="projetos" class="py-5 bg-light">
+    <div class="container">
+        <h2>Projetos</h2>
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Cardápio Cliente / Lanchonete</h3>
+                    <p class="card-text">Um cardápio simples feito em PHP que tem um dashboard para a lanchonete alterar os preços dos lanches e o cliente tem acesso ao cardápio podendo salvar no carrinho, finalizar compra e mandar o pedido via Whatsapp</p>
+                    <div class="text-center">
+                        <a href="https://github.com/KaioAndriaoDalfior/Cardapio" class="btn btn-primary" target="_blank">Veja o Projeto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Quem eu devo?</h3>
+                    <p class="card-text">Aplicativo feito em Java com a proposta de registrar dívidas. O mesmo exibe na tela e baixa em PDF os registros.</p>
+                    <div class="text-center">
+                        <a href="https://github.com/KaioAndriaoDalfior/Quem-Eu-Devo-" class="btn btn-primary" target="_blank">Veja o Projeto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Concessionária KJM</h3>
+                    <p class="card-text">Concessionária feita em C# ASPNET para a matéria de Programação para Internet 2. Feito por Kaio Andrião, José Elias Santos e Marcos Paulúcio.</p>
+                    <div class="text-center">
+                        <a href="https://drive.google.com/file/d/1Qzsn2_hzlBhztSurtm9LVoqVW1xs2cGp/view?usp=sharing" class="btn btn-primary" target="_blank">Veja o Projeto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Pizzaria KAD</h3>
+                    <p class="card-text">Cardápio de Pizzas feito em React Native para a matéria de Programação para Dispositivos Móveis</p>
+                    <div class="text-center">
+                        <a href="https://github.com/KaioAndriaoDalfior/PizzariaKAD" class="btn btn-primary" target="_blank">Veja o Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="contato">
+    <a href="mailto:kaioatd2024@gmail.com" class="icon" target="_blank"><img src="icones/envelope-regular.svg" alt=""></a>
+    <a href="https://www.facebook.com/kaioandriao" class="icon" target="_blank"><img src="icones/facebook.svg" alt=""></a>
+    <a href="https://github.com/KaioAndriaoDalfior" class="icon" target="_blank"><img src="icones/github.svg" alt=""></a>
+    <a href="https://www.instagram.com/kaioadalfior" class="icon" target="_blank"><img src="icones/instagram.svg" alt=""></a>
+</section>
+
+
+
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2024 Kaio Andrião Dalfior. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
